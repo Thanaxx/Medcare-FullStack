@@ -1,0 +1,62 @@
+:root{
+    --primary: #fff;
+    --main: #4A90E2;
+}
+
+.btn--solid{
+    background-color: var(--main);
+    color: var(--primary);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid var(--primary);
+}
+
+.btn--solid:hover{
+        color: var(--main);
+        background-color: var(--primary);
+        border: 1px solid var(--main);
+}
+
+.btn--white{
+    background-color: var(--primary);
+    color: var(--main);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid var(--primary);
+    margin-top: 40px;
+    
+}
+
+.btn--white:hover{
+    background-color: var(--main);
+    color: var(--primary);
+}
+
+.btn--outline{
+    color: var(--main);
+    outline: none;
+    border: 1px solid var(--main);
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.btn--outline:hover{
+    background-color: var(--main);
+    color: var(--primary);
+}
+
+.btn--small{
+    padding: 7px 20px;
+    font-size: 17px;
+}
+
+.btn--medium{
+    padding: 10px 15px;
+    font-size: 20px;
+}
